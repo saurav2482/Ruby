@@ -1,4 +1,4 @@
-require "json"
+# require "json"
 file = File.new("phonebook.txt","r")
 # content = file.sysread(100).chomp.split("]")[0].split("[")[1].split(", ")
 content=eval(file.read)

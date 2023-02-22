@@ -16,7 +16,7 @@ end
 end
 #  puts hash
 
- my_func =Proc.new{file2=File.new("output.txt", "a+")
+ my_func =Proc.new{file2=File.new("output.txt", "w+")
  
  hash.each do
     |k,v|

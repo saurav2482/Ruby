@@ -26,6 +26,7 @@ module Bank
 			@pin=gets.chomp.to_i
 			if @pin==1234
 				puts show_option
+			end	
 		end
 		def show_option
 			puts "Enter your option:"

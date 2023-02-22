@@ -24,6 +24,8 @@ module Bank
 		def start
 			puts "Enter your Pin:"
 			@pin=gets.chomp.to_i
+			if @pin==1234
+				puts show_option
 		end
 		def show_option
 			puts "Enter your option:"
@@ -56,6 +58,6 @@ module Bank
 	
 	atm1=Atm.new(f1)
 	atm1.start()
-	atm1.show_option()
+	# atm1.show_option()
 	
 end	
